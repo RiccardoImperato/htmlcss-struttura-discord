@@ -74,7 +74,6 @@ section:last-child {
 
 .footer-top {
     height: 600px;
-    width: 1250px;
 }
 
 .left2 {
@@ -93,6 +92,18 @@ footer {
     background-color: #23272a;
 }
 
+.footer-container {
+    width: 1250px;
+    height: 85px;
+    background-color: #7fffd4;
+}
+
+
+.logo-footer,
+.bottone {
+    background-color: #ffb6c1;
+    border: 2px dotted black;
+}
 
 /*/ DEBUG */
 
@@ -156,13 +167,24 @@ nav {
 /* FOOTER */
 
 footer {
-    padding: 10px 0 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid white;
+    padding: 10px 0 0;
 }
 
 .footer-top {
     display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-bottom: 2px solid white;
+}
+
+.footer-container {
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer,
+.bottone {
+    padding: 5px;
 }
