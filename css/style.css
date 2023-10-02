@@ -11,7 +11,7 @@
 
 /* DEBUG */
 
-header {
+nav {
     background-color: #add8e6;
 }
 
@@ -23,10 +23,8 @@ header {
 .logo,
 .link,
 .login {
-    line-height: 50px;
-    padding: 0 10px 0 10px;
     background-color: #daa520;
-    border: 2px dotted black;
+    border: 2px dashed black;
 }
 
 .header-bottom {
@@ -37,7 +35,7 @@ header {
     height: 400px;
     width: 950px;
     background-color: #ee82ee;
-    border: 2px dotted black;
+    border: 2px dashed black;
 }
 
 .main-box {
@@ -46,46 +44,34 @@ header {
 }
 
 .left {
-    width: 750px;
     background-color: #1e90ff;
-    border: 2px dotted black;
+    border: 2px dashed black;
 }
 
 .right {
-    width: 500px;
     background-color: #ffc0cb;
-    border: 2px dotted black;
+    border: 2px dashed black;
 }
 
 section:nth-child(even) {
     background-color: #d3d3d3;
 }
 
-section:last-child {
-    height: 1040px;
-}
-
 .main-box2 {
     width: 1250px;
     height: 930px;
     background-color: #228b22;
-    border: 2px dotted black;
-}
-
-.footer-top {
-    height: 600px;
+    border: 2px dashed black;
 }
 
 .left2 {
-    width: 370px;
     background-color: #f08080;
-    border: 2px dotted black;
+    border: 2px dashed black;
 }
 
 .right2 {
-    width: 220px;
     background-color: #20b2aa;
-    border: 2px dotted white;
+    border: 2px dashed white;
 }
 
 footer {
@@ -93,6 +79,11 @@ footer {
 }
 
 .footer-container {
+    width: 1250px;
+    height: 600px;
+}
+
+.footer-box {
     width: 1250px;
     height: 85px;
     background-color: #7fffd4;
@@ -102,7 +93,7 @@ footer {
 .logo-footer,
 .bottone {
     background-color: #ffb6c1;
-    border: 2px dotted black;
+    border: 2px dashed black;
 }
 
 /*/ DEBUG */
@@ -112,7 +103,6 @@ footer {
 
 .header-bottom,
 .main-container {
-    margin: 0px auto;
     padding: 50px 0 50px;
     display: flex;
     justify-content: center;
@@ -124,12 +114,18 @@ footer {
 
 /* HEADER */
 
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
 nav {
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .header-top {
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -137,11 +133,15 @@ nav {
 .logo,
 .login {
     flex-grow: 1;
+    line-height: 50px;
+    padding: 0 10px 0 10px;
 }
 
 .link {
     text-align: center;
     flex-grow: 2;
+    line-height: 50px;
+    padding: 0 10px 0 10px;
 }
 
 .login {
@@ -157,8 +157,24 @@ nav {
     display: flex;
 }
 
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
 #order {
     order: 1;
+}
+
+.left2 {
+    width: 40%;
+}
+
+.right2 {
+    width: 20%;
 }
 
 /*/ MAIN */
@@ -166,19 +182,24 @@ nav {
 
 /* FOOTER */
 
-footer {
-    padding: 10px 0 0;
-}
-
 .footer-top {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
     border-bottom: 2px solid white;
 }
 
 .footer-container {
-    margin: 20px auto 0;
+    display: flex;
+    padding: 10px 0 50px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,3 +209,5 @@ footer {
 .bottone {
     padding: 5px;
 }
+
+/*/ FOOTER */
