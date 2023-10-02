@@ -8,6 +8,7 @@
 
 /*/ RESET */
 
+
 /* DEBUG */
 
 header {
@@ -44,25 +45,13 @@ header {
     height: 520px;
 }
 
-.left1 {
+.left {
     width: 750px;
     background-color: #1e90ff;
     border: 2px dotted black;
 }
 
-.right1 {
-    width: 500px;
-    background-color: #ffc0cb;
-    border: 2px dotted black;
-}
-
-.left2 {
-    width: 750px;
-    background-color: #1e90ff;
-    border: 2px dotted black;
-}
-
-.right2 {
+.right {
     width: 500px;
     background-color: #ffc0cb;
     border: 2px dotted black;
@@ -82,6 +71,28 @@ section:last-child {
     background-color: #228b22;
     border: 2px dotted black;
 }
+
+.footer-top {
+    height: 600px;
+    width: 1250px;
+}
+
+.left2 {
+    width: 370px;
+    background-color: #f08080;
+    border: 2px dotted black;
+}
+
+.right2 {
+    width: 220px;
+    background-color: #20b2aa;
+    border: 2px dotted white;
+}
+
+footer {
+    background-color: #23272a;
+}
+
 
 /*/ DEBUG */
 
@@ -128,14 +139,30 @@ nav {
 
 /* /HEADER */
 
+
 /* MAIN */
 
 .main-box {
     display: flex;
 }
 
-.left2 {
+#order {
     order: 1;
 }
 
 /*/ MAIN */
+
+
+/* FOOTER */
+
+footer {
+    padding: 10px 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.footer-top {
+    display: flex;
+}
