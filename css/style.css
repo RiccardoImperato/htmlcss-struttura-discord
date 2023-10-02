@@ -11,14 +11,10 @@
 
 /* DEBUG */
 
-nav {
+.header-top {
     background-color: #add8e6;
 }
 
-.header-top {
-    width: 1250px;
-    height: 50px;
-}
 
 .logo,
 .link,
@@ -119,13 +115,14 @@ footer {
     flex-direction: column;
 }
 
-nav {
+.header-top {
     padding: 20px 0;
     display: flex;
     justify-content: center;
 }
 
-.header-top {
+.menu {
+    width: 1250px;
     display: flex;
     justify-content: space-between;
 }
@@ -186,20 +183,20 @@ nav {
     display: flex;
     justify-content: center;
     border-bottom: 2px solid white;
+    padding: 10px 0 50px;
 }
 
 .footer-container {
     display: flex;
-    padding: 10px 0 50px;
 }
 
 .footer-bottom {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .footer-box {
-    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
