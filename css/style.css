@@ -38,6 +38,63 @@ header {
     border: 2px dotted black;
 }
 
+.main-container1 {
+    height: 630px;
+}
+
+.main-box1 {
+    width: 1250px;
+    height: 520px;
+}
+
+.left1 {
+    width: 750px;
+    background-color: #1e90ff;
+    border: 2px dotted black;
+}
+
+.right1 {
+    width: 500px;
+    background-color: #ffc0cb;
+    border: 2px dotted black;
+}
+
+.main-container2 {
+    height: 630px;
+}
+
+.main-box2 {
+    width: 1250px;
+    height: 520px;
+}
+
+.left2 {
+    width: 750px;
+    background-color: #1e90ff;
+    border: 2px dotted black;
+}
+
+.right2 {
+    width: 500px;
+    background-color: #ffc0cb;
+    border: 2px dotted black;
+}
+
+section:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+section:last-child {
+    height: 1040px;
+}
+
+.main-box3 {
+    width: 1250px;
+    height: 930px;
+    background-color: #228b22;
+    border: 2px dotted black;
+}
+
 
 /* COMMON */
 
@@ -66,6 +123,38 @@ header {
 }
 
 .header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN */
+
+.main-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box1 {
+    display: flex;
+}
+
+.main-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box2 {
+    display: flex;
+}
+
+.left2 {
+    order: 1;
+}
+
+section:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
