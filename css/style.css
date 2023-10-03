@@ -15,7 +15,6 @@
     background-color: #add8e6;
 }
 
-
 .logo,
 .link,
 .login {
@@ -25,6 +24,7 @@
 
 .header-bottom {
     background-color: #00008b;
+    border-bottom: 4px solid #add8e6;
 }
 
 .header-box {
@@ -102,7 +102,6 @@ footer {
     padding: 50px 0 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 /*/ COMMON */
@@ -110,15 +109,11 @@ footer {
 
 /* HEADER */
 
-.header-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .header-top {
     padding: 20px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .menu {
@@ -131,14 +126,14 @@ footer {
 .login {
     flex-grow: 1;
     line-height: 50px;
-    padding: 0 10px 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .link {
     text-align: center;
     flex-grow: 2;
     line-height: 50px;
-    padding: 0 10px 0 10px;
 }
 
 .login {
@@ -160,10 +155,6 @@ footer {
 
 .right {
     width: 40%;
-}
-
-#order {
-    order: 1;
 }
 
 .left2 {
